@@ -1,0 +1,81 @@
+{
+    "workbench.colorTheme": "Civic",
+    "editor.minimap.enabled": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.tokenColorCustomizations": 
+    
+    {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.function.swift",
+                    
+                    "support.type.swift",
+                    
+                    "meta.definition.type.body.swift"
+                ],
+                "settings": {
+                    "foreground": "#49B4D7"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.swift",
+
+                    "punctuation.definition.arguments.begin.swift",
+                    "punctuation.definition.arguments.end.swift",
+                    "punctuation.definition.parameters.begin.swift",
+                    "punctuation.definition.parameters.end.swift",
+
+                    "meta.definition.function.body.swift"
+                ],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.class.swift"
+                ],
+                "settings": {
+                    "foreground": "#68d7f6"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.import.swift",
+                    "keyword.other.declaration-specifier.accessibility.swift",
+                    "keyword.other.declaration-specifier.swift",
+                    "keyword.control.branch.swift",
+                    "keyword.control.transfer.swift",
+
+                    "storage.modifier.swift",
+                    "storage.type.function.swift",
+
+                    "punctuation.definition.type.begin.swift",
+                    "punctuation.definition.type.end.swift",
+                    "punctuation.section.scope.begin.swift",
+                    "punctuation.section.scope.end.swift",
+
+                    "constant.language.nil.swift",
+                    "constant.numeric.integer.decimal.swift"
+                ],
+                "settings": {
+                    "foreground": "#e82ca4"
+                }
+            }
+        ]
+    },
+    "workbench.editor.wrapTabs": true,
+    "editor.fontSize": 13,
+    "debug.onTaskErrors": "debugAnyway",
+    "lldb.library": "/Applications/Xcode.13.0.0.13A233.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "workbench.iconTheme": "material-icon-theme",
+    "sync.gist": "aed2f992490cd84cf08e721fe3acb123"
+}
